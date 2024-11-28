@@ -11,7 +11,7 @@ class ImageCaptioning:
         pass
     
     @classmethod
-    def INPUT_TYPE(cls):
+    def INPUT_TYPES(cls):
         return {
             "required": {
                 "image": ("IMAGE", ),
