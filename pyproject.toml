@@ -1,0 +1,15 @@
+[project]
+name = "comfyui-airedoon"
+description = "NODES:AIRedoon Qwen Model Loader, AIRedoon Translator, AIRedoon Image Caption, AIRedoon LoRA Stack, AIRedoon Image RGBA2RGB, AIRedoon Preview Text, AIRedoon Save Text, ...\nRedoonAi Tool Kit"
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["openai", "requests", "torch", "pillow", "numpy"]
+
+[project.urls]
+Repository = "https://github.com/purpen/ComfyUI-AIRedoon"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-AIRedoon"
+Icon = ""
